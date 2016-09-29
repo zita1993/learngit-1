@@ -31,7 +31,7 @@ https://git-for-windows.github.io/ 或百度
 	git add a.txt 					//将文件加入待提交缓存
 	git rm a.txt 					//删除文件
 	git commit -m '这是提交文件的注释'
-
+        //echo "make some sentences on the file" >> a.txt  直接在命令行中用echo添加内容（"make……"）到a.txt中
 6,撤销修改
 	git checkout -- 文件名称		//丢弃工作区的修改内容,让这个文件回到最近一次git commit或git add时的状态
 	git reset HEAD 文件名称			//把暂存区的修改撤销掉（unstage），重新放回工作区,让这个文件回到最近一次git commit
